@@ -1,0 +1,60 @@
+name: ETF期权雷达云端刷新
+
+on:
+  schedule:
+    - cron: "45 1 * * 1-5"
+    - cron: "30 3 * * 1-5"
+    - cron: "30 5 * * 1-5"
+    - cron: "30 6 * * 1-5"
+    - cron: "0 7 * * 1-5"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/refresh-etf-options.yml"
+      - "requirements.txt"
+      - "work/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: etf-options-cloud-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TZ: Asia/Shanghai
+      GITHUB_EVENT_SCHEDULE: ${{ github.event.schedule }}
+    steps:
+      - name: 检出云端数据仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: 安装数据审计依赖
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: 抓取、交叉核验并生成报告
+        run: python work/cloud_refresh.py
+
+      - name: 归档本次通过门禁的数据
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/option_report_data.json data/dashboard_data.json data/snapshots
+          if git diff --cached --quiet; then
+            echo "No verified data changes to publish."
+            exit 0
+          fi
+          git commit -m "data: refresh verified ETF option snapshot"
+          git push
