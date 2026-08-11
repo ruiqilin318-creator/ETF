@@ -44,6 +44,9 @@ jobs:
       - name: 安装数据审计依赖
         run: python -m pip install --disable-pip-version-check -r requirements.txt
 
+      - name: 还原完整数据审计程序
+        run: python -c "import gzip, pathlib; pathlib.Path('work/generate_option_report.py').write_bytes(gzip.decompress(pathlib.Path('work/generate_option_report.py.gz').read_bytes()))"
+
       - name: 抓取、交叉核验并生成报告
         run: python work/cloud_refresh.py
 
