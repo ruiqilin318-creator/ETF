@@ -14,13 +14,13 @@ from generate_option_report import is_trading_day
 ROOT = Path(__file__).resolve().parents[1]
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 SCHEDULE_TO_SLOT = {
-    "45 1 * * 1-5": "09:45",
-    "30 3 * * 1-5": "11:30",
-    "30 5 * * 1-5": "13:30",
-    "30 6 * * 1-5": "14:30",
-    "0 7 * * 1-5": "15:00",
+    "46 1 * * 1-5": "09:45",
+    "31 3 * * 1-5": "11:30",
+    "31 5 * * 1-5": "13:30",
+    "31 6 * * 1-5": "14:30",
+    "1 7 * * 1-5": "15:00",
 }
-MAX_DELAY_MINUTES = 20
+MAX_DELAY_MINUTES = 5
 
 
 def main() -> None:

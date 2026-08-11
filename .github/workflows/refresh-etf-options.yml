@@ -2,11 +2,11 @@ name: ETF期权雷达云端刷新
 
 on:
   schedule:
-    - cron: "45 1 * * 1-5"
-    - cron: "30 3 * * 1-5"
-    - cron: "30 5 * * 1-5"
-    - cron: "30 6 * * 1-5"
-    - cron: "0 7 * * 1-5"
+    - cron: "46 1 * * 1-5"
+    - cron: "31 3 * * 1-5"
+    - cron: "31 5 * * 1-5"
+    - cron: "31 6 * * 1-5"
+    - cron: "1 7 * * 1-5"
   workflow_dispatch:
   push:
     branches: [main]
