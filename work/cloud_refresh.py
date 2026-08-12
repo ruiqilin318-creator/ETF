@@ -28,6 +28,7 @@ def main() -> None:
     event_name = os.getenv("GITHUB_EVENT_NAME", "manual")
     schedule = os.getenv("GITHUB_EVENT_SCHEDULE", "")
     expected_slot = SCHEDULE_TO_SLOT.get(schedule)
+    delayed_schedule = None
 
     if event_name == "schedule":
         if not expected_slot:
@@ -39,10 +40,15 @@ def main() -> None:
         planned = datetime.combine(now.date(), time(hour, minute), SHANGHAI)
         delay_minutes = (now - planned).total_seconds() / 60
         if delay_minutes < -2 or delay_minutes > MAX_DELAY_MINUTES:
-            raise RuntimeError(
-                f"Scheduled run outside freshness window: slot={expected_slot}, actual={now.isoformat()}, "
-                f"delay={delay_minutes:.1f}m"
-            )
+            delayed_schedule = {
+                "status": "delayed_actual_snapshot",
+                "plannedSlot": expected_slot,
+                "actualAt": now.isoformat(),
+                "delayMinutes": round(delay_minutes, 1),
+                "notice": "The scheduler was late; generating the latest validated snapshot without presenting it as the planned historical quote.",
+            }
+            expected_slot = None
+            print(json.dumps(delayed_schedule, ensure_ascii=False))
 
     subprocess.run([sys.executable, str(ROOT / "work" / "generate_option_report.py")], cwd=ROOT, check=True)
     subprocess.run([sys.executable, str(ROOT / "work" / "export_dashboard_data.py")], cwd=ROOT, check=True)
@@ -68,6 +74,7 @@ def main() -> None:
                 "slot": report["capture_slot"],
                 "runAt": report["run_at"],
                 "asOfDate": report["asof_date"],
+                "schedule": delayed_schedule,
             },
             ensure_ascii=False,
         )
