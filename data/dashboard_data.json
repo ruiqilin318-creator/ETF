@@ -1,7 +1,7 @@
 {
   "dataset": {
     "asOfDate": "2026-09-02",
-    "generatedAt": "2026-09-02T19:36:54.761154+08:00",
+    "generatedAt": "2026-09-02T19:54:38.592371+08:00",
     "label": "当日实际抓取快照",
     "qualityLabel": "价格A｜模型B（仅观察）",
     "verifiedTradingDay": true,
@@ -40,7 +40,7 @@
       "time": "15:00",
       "label": "收盘归档",
       "available": true,
-      "capturedAt": "2026-09-02T19:36:54.761154+08:00"
+      "capturedAt": "2026-09-02T19:54:38.592371+08:00"
     }
   ],
   "instruments": [
