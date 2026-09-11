@@ -1,7 +1,7 @@
 {
   "dataset": {
     "asOfDate": "2026-09-11",
-    "generatedAt": "2026-09-11T17:55:07.075587+08:00",
+    "generatedAt": "2026-09-11T19:42:42.687871+08:00",
     "label": "当日实际抓取快照",
     "qualityLabel": "数据门禁未完整通过",
     "verifiedTradingDay": true,
@@ -40,7 +40,7 @@
       "time": "15:00",
       "label": "收盘归档",
       "available": true,
-      "capturedAt": "2026-09-11T17:55:07.075587+08:00"
+      "capturedAt": "2026-09-11T19:42:42.687871+08:00"
     }
   ],
   "instruments": [
@@ -55,7 +55,7 @@
       "low": 2.956,
       "volume": 667541900,
       "volumeUnit": "份",
-      "sourceTime": "20260911161500",
+      "sourceTime": "20260911161457",
       "secondarySource": "东方财富",
       "secondaryTime": "2026-09-11 16:11:57",
       "quality": "B（价格已核验・模型观察）",
@@ -505,7 +505,7 @@
       "low": 4.532,
       "volume": 966665200,
       "volumeUnit": "份",
-      "sourceTime": "20260911161500",
+      "sourceTime": "20260911161436",
       "secondarySource": "东方财富",
       "secondaryTime": "2026-09-11 16:11:36",
       "quality": "B（价格已核验・模型观察）",
@@ -961,7 +961,7 @@
       "low": 7.468,
       "volume": 571615800,
       "volumeUnit": "份",
-      "sourceTime": "20260911161500",
+      "sourceTime": "20260911161453",
       "secondarySource": "东方财富",
       "secondaryTime": "2026-09-11 16:11:53",
       "quality": "B（兜底观察・非首选）",
@@ -1227,7 +1227,7 @@
       "low": 1.601,
       "volume": 4976277200,
       "volumeUnit": "份",
-      "sourceTime": "20260911161500",
+      "sourceTime": "20260911161453",
       "secondarySource": "东方财富",
       "secondaryTime": "2026-09-11 16:11:53",
       "quality": "B（兜底观察・非首选）",
