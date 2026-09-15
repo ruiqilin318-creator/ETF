@@ -1,7 +1,7 @@
 {
   "dataset": {
     "asOfDate": "2026-09-15",
-    "generatedAt": "2026-09-15T16:50:42.275576+08:00",
+    "generatedAt": "2026-09-15T18:18:17.995931+08:00",
     "label": "当日实际抓取快照",
     "qualityLabel": "数据门禁未完整通过",
     "verifiedTradingDay": true,
@@ -40,7 +40,7 @@
       "time": "15:00",
       "label": "收盘归档",
       "available": true,
-      "capturedAt": "2026-09-15T16:50:42.275576+08:00"
+      "capturedAt": "2026-09-15T18:18:17.995931+08:00"
     }
   ],
   "instruments": [
@@ -108,11 +108,11 @@
         "direction": "bear",
         "isFallback": false,
         "fallbackReason": null,
-        "score": 66.83554932074684,
+        "score": 66.79396581214073,
         "cost": 1938.9999999999998,
         "mainShare": 83.23878287777204,
         "coverage": 35.8485591960889,
-        "liquidity": 77.3356347253498,
+        "liquidity": 77.1970230299961,
         "roundtrip": 36.99999999999977,
         "greeks": {
           "delta_rmb_per_0.01": -40.57735529855579,
@@ -125,22 +125,22 @@
         "sourceGreeks": {
           "available": true,
           "source": "新浪CON_SO收盘Greeks换算",
-          "delta_units": -0.2115,
-          "delta_rmb_per_0.01": -21.150000000000002,
-          "gamma_rmb_per_yuan2": 22654.0,
-          "theta_rmb_per_day": -28.46849315068493,
-          "vega_rmb_per_iv_point": 118.23999999999998,
+          "delta_units": -0.2209,
+          "delta_rmb_per_0.01": -22.09,
+          "gamma_rmb_per_yuan2": 23381.0,
+          "theta_rmb_per_day": -27.268493150684932,
+          "vega_rmb_per_iv_point": 117.76,
           "reference_unit": 10000.0
         },
         "greekReconciliation": {
           "status": "REVIEW",
           "label": "模型/源值差异显著",
-          "max_divergence_pct": 91.85510779459,
+          "max_divergence_pct": 83.69106065439466,
           "divergence_pct": {
-            "delta_units": 91.85510779459,
-            "gamma_rmb_per_yuan2": 16.392224536406445,
-            "theta_rmb_per_day": 22.91648717693459,
-            "vega_rmb_per_iv_point": 11.560144807209879
+            "delta_units": 83.69106065439466,
+            "gamma_rmb_per_yuan2": 12.77316858336904,
+            "theta_rmb_per_day": 19.524285969609902,
+            "vega_rmb_per_iv_point": 11.199656267021894
           }
         },
         "legs": [
@@ -158,7 +158,7 @@
             "bidQty": 1,
             "askQty": 1,
             "volume": 5977,
-            "oi": 23376,
+            "oi": 22517,
             "iv": 16.64187537826816,
             "delta": -0.6325244575969354,
             "gamma": 1.4443508839709227,
@@ -183,7 +183,7 @@
             "bidQty": 1,
             "askQty": 20,
             "volume": 13805,
-            "oi": 24920,
+            "oi": 22770,
             "iv": 16.23005622540259,
             "delta": 0.22675090461137762,
             "gamma": 1.192398570676829,
@@ -342,11 +342,11 @@
         "direction": "bull",
         "isFallback": true,
         "fallbackReason": "严格组合为空；采用最近一档实值主腿＋同执行价虚值保险腿（1:1），仅作兜底观察，不进入本时点总首选。",
-        "score": 56.59148939955877,
+        "score": 56.52720524775066,
         "cost": 5357.0,
         "mainShare": 51.31603509426918,
         "coverage": 89.29818013805257,
-        "liquidity": 80.76240619608276,
+        "liquidity": 80.54812569005574,
         "roundtrip": 63.0,
         "greeks": {
           "delta_rmb_per_0.01": 5.592969464154667,
@@ -359,22 +359,22 @@
         "sourceGreeks": {
           "available": true,
           "source": "新浪CON_SO收盘Greeks换算",
-          "delta_units": 0.1596,
-          "delta_rmb_per_0.01": 15.96,
-          "gamma_rmb_per_yuan2": 9124.0,
-          "theta_rmb_per_day": -78.47671232876712,
-          "vega_rmb_per_iv_point": 203.62,
+          "delta_units": 0.1601999999999999,
+          "delta_rmb_per_0.01": 16.019999999999992,
+          "gamma_rmb_per_yuan2": 9188.0,
+          "theta_rmb_per_day": -77.92876712328767,
+          "vega_rmb_per_iv_point": 203.6,
           "reference_unit": 10000.0
         },
         "greekReconciliation": {
           "status": "REVIEW",
           "label": "模型/源值差异显著",
-          "max_divergence_pct": 64.9563316782289,
+          "max_divergence_pct": 65.08758137231791,
           "divergence_pct": {
-            "delta_units": 64.9563316782289,
-            "gamma_rmb_per_yuan2": 27.786959361951947,
-            "theta_rmb_per_day": 22.58435094729125,
-            "vega_rmb_per_iv_point": 0.7184747058168086
+            "delta_units": 65.08758137231791,
+            "gamma_rmb_per_yuan2": 26.896845583200868,
+            "theta_rmb_per_day": 22.040013659619273,
+            "vega_rmb_per_iv_point": 0.7283684656110982
           }
         },
         "legs": [
@@ -392,7 +392,7 @@
             "bidQty": 2,
             "askQty": 10,
             "volume": 15962,
-            "oi": 14400,
+            "oi": 13409,
             "iv": 25.787335907044252,
             "delta": 0.5226185393048567,
             "gamma": 0.5862272206422529,
@@ -417,7 +417,7 @@
             "bidQty": 5,
             "askQty": 2,
             "volume": 21949,
-            "oi": 15958,
+            "oi": 14068,
             "iv": 26.07727333526406,
             "delta": -0.46668884466331,
             "gamma": 0.5797009965761967,
