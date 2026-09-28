@@ -1,7 +1,7 @@
 {
   "dataset": {
     "asOfDate": "2026-09-28",
-    "generatedAt": "2026-09-28T15:40:31.142884+08:00",
+    "generatedAt": "2026-09-28T18:02:21.422331+08:00",
     "label": "当日实际抓取快照",
     "qualityLabel": "价格A｜模型B（仅观察）",
     "verifiedTradingDay": true,
@@ -40,7 +40,7 @@
       "time": "15:00",
       "label": "收盘归档",
       "available": true,
-      "capturedAt": "2026-09-28T15:40:31.142884+08:00"
+      "capturedAt": "2026-09-28T18:02:21.422331+08:00"
     }
   ],
   "instruments": [
@@ -55,9 +55,9 @@
       "low": 2.906,
       "volume": 587149600,
       "volumeUnit": "份",
-      "sourceTime": "20260928154012",
+      "sourceTime": "20260928161442",
       "secondarySource": "东方财富",
-      "secondaryTime": "2026-09-28 15:40:35",
+      "secondaryTime": "2026-09-28 16:11:35",
       "quality": "B（价格已核验・模型观察）",
       "priceQuality": "A（官方元数据＋双源收盘报价一致）",
       "modelQuality": "B（Greeks需复核／利率为假设）",
@@ -76,11 +76,11 @@
         "direction": "bull",
         "isFallback": false,
         "fallbackReason": null,
-        "score": 69.33730843114915,
+        "score": 69.27906607268096,
         "cost": 828.0,
         "mainShare": 72.46376811594203,
         "coverage": 48.68029306722777,
-        "liquidity": 83.05746944878649,
+        "liquidity": 82.86332825389256,
         "roundtrip": 11.0,
         "greeks": {
           "delta_rmb_per_0.01": 29.453724241475836,
@@ -93,22 +93,22 @@
         "sourceGreeks": {
           "available": true,
           "source": "新浪CON_SO收盘Greeks换算",
-          "delta_units": 0.339,
-          "delta_rmb_per_0.01": 33.9,
-          "gamma_rmb_per_yuan2": 52792.0,
-          "theta_rmb_per_day": -16.98904109589041,
-          "vega_rmb_per_iv_point": 59.65,
+          "delta_units": 0.3369,
+          "delta_rmb_per_0.01": 33.69,
+          "gamma_rmb_per_yuan2": 52455.0,
+          "theta_rmb_per_day": -17.134246575342466,
+          "vega_rmb_per_iv_point": 59.74,
           "reference_unit": 10000.0
         },
         "greekReconciliation": {
           "status": "PASS",
           "label": "模型/源值一致",
-          "max_divergence_pct": 13.115857694761566,
+          "max_divergence_pct": 12.627636536669659,
           "divergence_pct": {
-            "delta_units": 13.115857694761566,
-            "gamma_rmb_per_yuan2": 10.332837178221444,
-            "theta_rmb_per_day": 11.880864199376234,
-            "vega_rmb_per_iv_point": 2.1491460300177363
+            "delta_units": 12.574282453321956,
+            "gamma_rmb_per_yuan2": 11.041676490566516,
+            "theta_rmb_per_day": 12.627636536669659,
+            "vega_rmb_per_iv_point": 1.9952554518004286
           }
         },
         "legs": [
@@ -126,11 +126,11 @@
             "bidQty": 2,
             "askQty": 19,
             "volume": 72803,
-            "oi": 37356,
+            "oi": 34359,
             "iv": 14.681956778325873,
             "delta": 0.5739261972025603,
             "gamma": 3.181879981988794,
-            "quoteTime": "20260928 15:40:49",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度实值",
               "distance": 0.7529089664613409
@@ -151,11 +151,11 @@
             "bidQty": 11,
             "askQty": 13,
             "volume": 83351,
-            "oi": 72044,
+            "oi": 65503,
             "iv": 15.177433770701848,
             "delta": -0.279388954787802,
             "gamma": 2.6428111583238723,
-            "quoteTime": "20260928 15:40:49",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 2.4640657084188944
@@ -278,12 +278,12 @@
         "alternatives": [
           {
             "label": "3×50ETF购10月2900 + 2×50ETF沽10月2850",
-            "score": 68.65308449559049,
+            "score": 68.5948421371223,
             "cost": 2256.0
           },
           {
             "label": "1×50ETF购11月2850 + 1×50ETF沽10月2850",
-            "score": 67.41594538074703,
+            "score": 67.29584307034705,
             "cost": 1270.0
           }
         ]
@@ -292,11 +292,11 @@
         "direction": "bear",
         "isFallback": false,
         "fallbackReason": null,
-        "score": 65.39352562251587,
+        "score": 65.30547509029361,
         "cost": 1615.0,
         "mainShare": 78.69969040247679,
         "coverage": 45.80683684906506,
-        "liquidity": 71.47062541252758,
+        "liquidity": 71.1771236384534,
         "roundtrip": 45.0,
         "greeks": {
           "delta_rmb_per_0.01": -36.951113480498734,
@@ -309,22 +309,22 @@
         "sourceGreeks": {
           "available": true,
           "source": "新浪CON_SO收盘Greeks换算",
-          "delta_units": -0.22,
-          "delta_rmb_per_0.01": -22.0,
-          "gamma_rmb_per_yuan2": 40918.0,
-          "theta_rmb_per_day": -11.528767123287672,
-          "vega_rmb_per_iv_point": 89.38,
+          "delta_units": -0.218,
+          "delta_rmb_per_0.01": -21.8,
+          "gamma_rmb_per_yuan2": 40624.0,
+          "theta_rmb_per_day": -11.64109589041096,
+          "vega_rmb_per_iv_point": 89.44,
           "reference_unit": 10000.0
         },
         "greekReconciliation": {
           "status": "REVIEW",
           "label": "模型/源值差异显著",
-          "max_divergence_pct": 67.95960672953969,
+          "max_divergence_pct": 69.50052055274648,
           "divergence_pct": {
-            "delta_units": 67.95960672953969,
-            "gamma_rmb_per_yuan2": 1.6029059473362341,
-            "theta_rmb_per_day": 0.8601478984573792,
-            "vega_rmb_per_iv_point": 8.109642766945285
+            "delta_units": 69.50052055274648,
+            "gamma_rmb_per_yuan2": 0.8907962178294611,
+            "theta_rmb_per_day": 1.816780973572285,
+            "vega_rmb_per_iv_point": 8.171286566520235
           }
         },
         "legs": [
@@ -342,11 +342,11 @@
             "bidQty": 1,
             "askQty": 1,
             "volume": 3102,
-            "oi": 4485,
+            "oi": 3892,
             "iv": 15.017536910139711,
             "delta": -0.6818408694392892,
             "gamma": 2.014879451220868,
-            "quoteTime": "20260928 15:40:50",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度实值",
               "distance": 2.6694045174537884
@@ -367,11 +367,11 @@
             "bidQty": 1,
             "askQty": 3,
             "volume": 6619,
-            "oi": 8201,
+            "oi": 7212,
             "iv": 15.053508088722579,
             "delta": 0.3123297346343019,
             "gamma": 2.011332843226028,
-            "quoteTime": "20260928 15:40:51",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 2.6694045174537884
@@ -494,7 +494,7 @@
         "alternatives": [
           {
             "label": "3×50ETF沽11月3000 + 2×50ETF购11月3000",
-            "score": 63.37162713884156,
+            "score": 63.283576606619306,
             "cost": 4518.0
           }
         ]
@@ -511,9 +511,9 @@
       "low": 4.397,
       "volume": 986408900,
       "volumeUnit": "份",
-      "sourceTime": "20260928154031",
+      "sourceTime": "20260928161435",
       "secondarySource": "东方财富",
-      "secondaryTime": "2026-09-28 15:40:35",
+      "secondaryTime": "2026-09-28 16:11:35",
       "quality": "B（兜底观察・非首选）",
       "priceQuality": "A（官方元数据＋双源收盘报价一致）",
       "modelQuality": "B（Greeks需复核／利率为假设）",
@@ -532,11 +532,11 @@
         "direction": "bull",
         "isFallback": false,
         "fallbackReason": null,
-        "score": 66.50502034784495,
+        "score": 66.37942370557633,
         "cost": 2237.0,
         "mainShare": 79.79436745641483,
         "coverage": 47.51970947346823,
-        "liquidity": 75.99817456674214,
+        "liquidity": 75.57951909251337,
         "roundtrip": 52.00000000000023,
         "greeks": {
           "delta_rmb_per_0.01": 33.11004958415778,
@@ -549,22 +549,22 @@
         "sourceGreeks": {
           "available": true,
           "source": "新浪CON_SO收盘Greeks换算",
-          "delta_units": 0.401,
-          "delta_rmb_per_0.01": 40.10000000000001,
-          "gamma_rmb_per_yuan2": 24586.0,
-          "theta_rmb_per_day": -25.561643835616437,
-          "vega_rmb_per_iv_point": 105.5,
+          "delta_units": 0.3942,
+          "delta_rmb_per_0.01": 39.42,
+          "gamma_rmb_per_yuan2": 24194.0,
+          "theta_rmb_per_day": -26.16986301369863,
+          "vega_rmb_per_iv_point": 106.02,
           "reference_unit": 10000.0
         },
         "greekReconciliation": {
           "status": "REVIEW",
           "label": "模型/源值差异显著",
-          "max_divergence_pct": 17.431297795117757,
+          "max_divergence_pct": 18.318699911360245,
           "divergence_pct": {
-            "delta_units": 17.431297795117757,
-            "gamma_rmb_per_yuan2": 9.843991445517851,
-            "theta_rmb_per_day": 16.375157722755947,
-            "vega_rmb_per_iv_point": 3.9816855474662627
+            "delta_units": 16.00697720913805,
+            "gamma_rmb_per_yuan2": 11.623723802575096,
+            "theta_rmb_per_day": 18.318699911360245,
+            "vega_rmb_per_iv_point": 3.4716829396122537
           }
         },
         "legs": [
@@ -582,11 +582,11 @@
             "bidQty": 1,
             "askQty": 1,
             "volume": 1061,
-            "oi": 883,
+            "oi": 703,
             "iv": 17.756509138655225,
             "delta": 0.6309044643611256,
             "gamma": 1.1940193350779655,
-            "quoteTime": "20260928 15:40:51",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度实值",
               "distance": 2.64885669006113
@@ -607,11 +607,11 @@
             "bidQty": 16,
             "askQty": 54,
             "volume": 91264,
-            "oi": 55797,
+            "oi": 47660,
             "iv": 18.200682334857692,
             "delta": -0.2998039685195478,
             "gamma": 1.5066050386015364,
-            "quoteTime": "20260928 15:40:51",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 2.64885669006113
@@ -731,12 +731,12 @@
         "alternatives": [
           {
             "label": "3×300ETF购11月4400 + 2×300ETF沽10月4300",
-            "score": 66.04602059094621,
+            "score": 65.90328851792049,
             "cost": 4575.0
           },
           {
             "label": "1×300ETF购11月4400 + 1×300ETF沽10月4300",
-            "score": 65.1150625533559,
+            "score": 64.97233048033016,
             "cost": 1671.0
           }
         ]
@@ -745,11 +745,11 @@
         "direction": "bear",
         "isFallback": true,
         "fallbackReason": "严格组合为空；采用最近一档实值主腿＋同执行价虚值保险腿（1:1），仅作兜底观察，不进入本时点总首选。",
-        "score": 63.41638109966098,
+        "score": 63.28601063384322,
         "cost": 2597.0,
         "mainShare": 69.9653446284174,
         "coverage": 61.25052600927354,
-        "liquidity": 75.22416695283525,
+        "liquidity": 74.78959873344267,
         "roundtrip": 24.0,
         "greeks": {
           "delta_rmb_per_0.01": -23.88342008957648,
@@ -762,22 +762,22 @@
         "sourceGreeks": {
           "available": true,
           "source": "新浪CON_SO收盘Greeks换算",
-          "delta_units": -0.098,
-          "delta_rmb_per_0.01": -9.8,
-          "gamma_rmb_per_yuan2": 23578.0,
-          "theta_rmb_per_day": -22.15068493150685,
-          "vega_rmb_per_iv_point": 139.42000000000002,
+          "delta_units": -0.0948,
+          "delta_rmb_per_0.01": -9.48,
+          "gamma_rmb_per_yuan2": 23090.0,
+          "theta_rmb_per_day": -22.671232876712327,
+          "vega_rmb_per_iv_point": 139.5,
           "reference_unit": 10000.0
         },
         "greekReconciliation": {
           "status": "REVIEW",
           "label": "模型/源值差异显著",
-          "max_divergence_pct": 143.70836826098449,
+          "max_divergence_pct": 151.93481107148185,
           "divergence_pct": {
-            "delta_units": 143.70836826098449,
-            "gamma_rmb_per_yuan2": 5.203630713173127,
-            "theta_rmb_per_day": 6.611949174221333,
-            "vega_rmb_per_iv_point": 4.48970878757284
+            "delta_units": 151.93481107148185,
+            "gamma_rmb_per_yuan2": 7.427076871164834,
+            "theta_rmb_per_day": 8.756206534571536,
+            "vega_rmb_per_iv_point": 4.544481714433003
           }
         },
         "legs": [
@@ -795,11 +795,11 @@
             "bidQty": 1,
             "askQty": 1,
             "volume": 3301,
-            "oi": 3861,
+            "oi": 3027,
             "iv": 17.28113321830234,
             "delta": -0.6163546915576782,
             "gamma": 1.2424602909122757,
-            "quoteTime": "20260928 15:40:52",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度实值",
               "distance": 1.879103463889531
@@ -820,11 +820,11 @@
             "bidQty": 1,
             "askQty": 3,
             "volume": 7808,
-            "oi": 5103,
+            "oi": 4362,
             "iv": 17.350995630491884,
             "delta": 0.37752049066191345,
             "gamma": 1.2380309140429202,
-            "quoteTime": "20260928 15:40:52",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 1.879103463889531
@@ -958,9 +958,9 @@
       "low": 7.391,
       "volume": 278663000,
       "volumeUnit": "份",
-      "sourceTime": "20260928154014",
+      "sourceTime": "20260928161444",
       "secondarySource": "东方财富",
-      "secondaryTime": "2026-09-28 15:40:14",
+      "secondaryTime": "2026-09-28 16:11:44",
       "quality": "B（兜底观察・非首选）",
       "priceQuality": "A（官方元数据＋双源收盘报价一致）",
       "modelQuality": "B（Greeks需复核／利率为假设）",
@@ -979,11 +979,11 @@
         "direction": "bull",
         "isFallback": true,
         "fallbackReason": "严格组合为空；采用最近一档实值主腿＋同执行价虚值保险腿（1:1），仅作兜底观察，不进入本时点总首选。",
-        "score": 66.93426057918394,
+        "score": 66.78520711711217,
         "cost": 4413.0,
         "mainShare": 68.66077498300476,
         "coverage": 57.12848300120883,
-        "liquidity": 87.01873971001157,
+        "liquidity": 86.52189483643897,
         "roundtrip": 12.0,
         "greeks": {
           "delta_rmb_per_0.01": 27.176324961631565,
@@ -996,22 +996,22 @@
         "sourceGreeks": {
           "available": true,
           "source": "新浪CON_SO收盘Greeks换算",
-          "delta_units": 0.2882,
-          "delta_rmb_per_0.01": 28.82,
-          "gamma_rmb_per_yuan2": 11152.0,
-          "theta_rmb_per_day": -84.74246575342465,
-          "vega_rmb_per_iv_point": 158.95999999999998,
+          "delta_units": 0.28580000000000005,
+          "delta_rmb_per_0.01": 28.580000000000005,
+          "gamma_rmb_per_yuan2": 11034.0,
+          "theta_rmb_per_day": -85.81095890410958,
+          "vega_rmb_per_iv_point": 159.14000000000001,
           "reference_unit": 10000.0
         },
         "greekReconciliation": {
           "status": "REVIEW",
           "label": "模型/源值差异显著",
-          "max_divergence_pct": 25.26999896413355,
+          "max_divergence_pct": 26.609663625885204,
           "divergence_pct": {
-            "delta_units": 5.703244407940444,
-            "gamma_rmb_per_yuan2": 25.26999896413355,
-            "theta_rmb_per_day": 24.164690017126,
-            "vega_rmb_per_iv_point": 0.304163663706794
+            "delta_units": 4.911389217524284,
+            "gamma_rmb_per_yuan2": 26.609663625885204,
+            "theta_rmb_per_day": 25.1089692832197,
+            "vega_rmb_per_iv_point": 0.19071167514659068
           }
         },
         "legs": [
@@ -1029,11 +1029,11 @@
             "bidQty": 2,
             "askQty": 1,
             "volume": 34021,
-            "oi": 13604,
+            "oi": 10804,
             "iv": 25.04623357521406,
             "delta": 0.633901640625356,
             "gamma": 0.699509019102637,
-            "quoteTime": "20260928 15:40:52",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度实值",
               "distance": 2.553763440860224
@@ -1054,11 +1054,11 @@
             "bidQty": 41,
             "askQty": 1,
             "volume": 156545,
-            "oi": 51720,
+            "oi": 41210,
             "iv": 25.126031404970796,
             "delta": -0.36213839100904044,
             "gamma": 0.6975020093453804,
-            "quoteTime": "20260928 15:40:52",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 2.553763440860224
@@ -1181,12 +1181,12 @@
         "alternatives": [
           {
             "label": "1×500ETF购11月7250 + 1×500ETF沽10月7250",
-            "score": 62.36528138213755,
+            "score": 62.21271582797901,
             "cost": 5035.0
           },
           {
             "label": "1×500ETF购10月7250 + 1×500ETF沽11月7250",
-            "score": 61.99935011682963,
+            "score": 61.83384944661084,
             "cost": 5474.0
           }
         ]
@@ -1195,11 +1195,11 @@
         "direction": "bear",
         "isFallback": true,
         "fallbackReason": "严格组合为空；采用最近一档实值主腿＋同执行价虚值保险腿（1:1），仅作兜底观察，不进入本时点总首选。",
-        "score": 55.96374702921815,
+        "score": 55.860771854311366,
         "cost": 6025.0,
         "mainShare": 60.99585062240664,
         "coverage": 81.37940270842063,
-        "liquidity": 71.44150331546814,
+        "liquidity": 71.09825273244554,
         "roundtrip": 119.0,
         "greeks": {
           "delta_rmb_per_0.01": -10.15423087759631,
@@ -1212,22 +1212,22 @@
         "sourceGreeks": {
           "available": true,
           "source": "新浪CON_SO收盘Greeks换算",
-          "delta_units": 0.039,
-          "delta_rmb_per_0.01": 3.9,
-          "gamma_rmb_per_yuan2": 8576.0,
-          "theta_rmb_per_day": -63.33972602739726,
-          "vega_rmb_per_iv_point": 236.36,
+          "delta_units": 0.0398,
+          "delta_rmb_per_0.01": 3.98,
+          "gamma_rmb_per_yuan2": 8476.0,
+          "theta_rmb_per_day": -64.0958904109589,
+          "vega_rmb_per_iv_point": 236.34,
           "reference_unit": 10000.0
         },
         "greekReconciliation": {
           "status": "REVIEW",
           "label": "模型/源值差异显著",
-          "max_divergence_pct": 360.36489429734127,
+          "max_divergence_pct": 355.1314290853344,
           "divergence_pct": {
-            "delta_units": 360.36489429734127,
-            "gamma_rmb_per_yuan2": 23.55699276554585,
-            "theta_rmb_per_day": 19.71566262033757,
-            "vega_rmb_per_iv_point": 1.8519413804196965
+            "delta_units": 355.1314290853344,
+            "gamma_rmb_per_yuan2": 25.014720381939735,
+            "theta_rmb_per_day": 20.662808468458397,
+            "vega_rmb_per_iv_point": 1.8436357141237134
           }
         },
         "legs": [
@@ -1245,11 +1245,11 @@
             "bidQty": 1,
             "askQty": 1,
             "volume": 5577,
-            "oi": 4186,
+            "oi": 3716,
             "iv": 24.811684028083253,
             "delta": -0.5453225113347073,
             "gamma": 0.5314325146831748,
-            "quoteTime": "20260928 15:40:53",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度实值",
               "distance": 0.8064516129032251
@@ -1270,11 +1270,11 @@
             "bidQty": 1,
             "askQty": 3,
             "volume": 5052,
-            "oi": 2449,
+            "oi": 2011,
             "iv": 24.96853153875983,
             "delta": 0.4437802025587443,
             "gamma": 0.5281922552741465,
-            "quoteTime": "20260928 15:40:53",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 0.8064516129032251
@@ -1408,7 +1408,7 @@
       "low": 3.145,
       "volume": 2494946500,
       "volumeUnit": "份",
-      "sourceTime": "20260928154009",
+      "sourceTime": "20260928161409",
       "secondarySource": "东方财富",
       "secondaryTime": "2026-09-28 15:34:09",
       "quality": "B（兜底观察・非首选）",
@@ -1637,9 +1637,9 @@
       "low": 1.636,
       "volume": 4567502400,
       "volumeUnit": "份",
-      "sourceTime": "20260928154031",
+      "sourceTime": "20260928161459",
       "secondarySource": "东方财富",
-      "secondaryTime": "2026-09-28 15:40:29",
+      "secondaryTime": "2026-09-28 16:11:59",
       "quality": "B（兜底观察・非首选）",
       "priceQuality": "A（官方元数据＋双源收盘报价一致）",
       "modelQuality": "B（Greeks需复核／利率为假设）",
@@ -1658,11 +1658,11 @@
         "direction": "bull",
         "isFallback": true,
         "fallbackReason": "严格组合为空；采用最近一档实值主腿＋同执行价虚值保险腿（1:1），仅作兜底观察，不进入本时点总首选。",
-        "score": 64.79118763067814,
+        "score": 64.7234794089693,
         "cost": 1457.0,
         "mainShare": 64.92793411118737,
         "coverage": 61.87621594150331,
-        "liquidity": 88.31967117374283,
+        "liquidity": 88.09397710138006,
         "roundtrip": 5.0,
         "greeks": {
           "delta_rmb_per_0.01": 23.530206872170062,
@@ -1675,22 +1675,22 @@
         "sourceGreeks": {
           "available": true,
           "source": "新浪CON_SO收盘Greeks换算",
-          "delta_units": 0.2134,
-          "delta_rmb_per_0.01": 21.34,
-          "gamma_rmb_per_yuan2": 30466.000000000004,
-          "theta_rmb_per_day": -32.52602739726027,
-          "vega_rmb_per_iv_point": 36.22,
+          "delta_units": 0.2125999999999999,
+          "delta_rmb_per_0.01": 21.25999999999999,
+          "gamma_rmb_per_yuan2": 30162.0,
+          "theta_rmb_per_day": -32.87123287671233,
+          "vega_rmb_per_iv_point": 36.24,
           "reference_unit": 10000.0
         },
         "greekReconciliation": {
           "status": "REVIEW",
           "label": "模型/源值差异显著",
-          "max_divergence_pct": 39.32439191202339,
+          "max_divergence_pct": 40.72862953357553,
           "divergence_pct": {
-            "delta_units": 10.263387404733184,
-            "gamma_rmb_per_yuan2": 39.32439191202339,
-            "theta_rmb_per_day": 29.883246860544816,
-            "vega_rmb_per_iv_point": 0.8578792245204586
+            "delta_units": 10.678301374271275,
+            "gamma_rmb_per_yuan2": 40.72862953357553,
+            "theta_rmb_per_day": 30.619595493281217,
+            "vega_rmb_per_iv_point": 0.9125934192089215
           }
         },
         "legs": [
@@ -1708,11 +1708,11 @@
             "bidQty": 42,
             "askQty": 9,
             "volume": 35664,
-            "oi": 22283,
+            "oi": 20916,
             "iv": 38.18059528435155,
             "delta": 0.6172054388951943,
             "gamma": 2.1196472448335033,
-            "quoteTime": "20260928 15:40:57",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度实值",
               "distance": 2.6171637248934787
@@ -1733,11 +1733,11 @@
             "bidQty": 2,
             "askQty": 33,
             "volume": 102146,
-            "oi": 65684,
+            "oi": 56843,
             "iv": 38.07843357349594,
             "delta": -0.3819033701734937,
             "gamma": 2.1250096791582016,
-            "quoteTime": "20260928 15:40:57",
+            "quoteTime": "20260928 16:29:08",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 2.6171637248934787
@@ -1860,12 +1860,12 @@
         "alternatives": [
           {
             "label": "1×科创50购11月1600 + 1×科创50沽10月1600",
-            "score": 60.9150753284501,
+            "score": 60.78326070528985,
             "cost": 1745.0
           },
           {
             "label": "1×科创50购10月1600 + 1×科创50沽11月1600",
-            "score": 58.01909394636875,
+            "score": 57.94644613829911,
             "cost": 1807.0
           }
         ]
