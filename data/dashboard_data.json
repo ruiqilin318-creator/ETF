@@ -1,7 +1,7 @@
 {
   "dataset": {
     "asOfDate": "2026-11-04",
-    "generatedAt": "2026-11-04T16:03:39.500341+08:00",
+    "generatedAt": "2026-11-04T21:11:11.596396+08:00",
     "label": "当日实际抓取快照",
     "qualityLabel": "价格A｜模型B（仅观察）",
     "verifiedTradingDay": true,
@@ -40,7 +40,7 @@
       "time": "15:00",
       "label": "收盘归档",
       "available": true,
-      "capturedAt": "2026-11-04T16:03:39.500341+08:00"
+      "capturedAt": "2026-11-04T21:11:11.596396+08:00"
     }
   ],
   "instruments": [
@@ -55,9 +55,9 @@
       "low": 2.865,
       "volume": 1058460600,
       "volumeUnit": "份",
-      "sourceTime": "20261104160335",
-      "secondarySource": "新浪",
-      "secondaryTime": "2026-11-04 15:34:59",
+      "sourceTime": "20261104161442",
+      "secondarySource": "东方财富",
+      "secondaryTime": "2026-11-04 16:11:35",
       "quality": "B（价格已核验・模型观察）",
       "priceQuality": "A（官方元数据＋双源收盘报价一致）",
       "modelQuality": "B（Greeks需复核／利率为假设）",
@@ -76,11 +76,11 @@
         "direction": "bull",
         "isFallback": false,
         "fallbackReason": null,
-        "score": 66.56045873971783,
+        "score": 66.48198264593873,
         "cost": 854.9999999999999,
         "mainShare": 79.64912280701753,
         "coverage": 50.285992828663026,
-        "liquidity": 76.05865026982147,
+        "liquidity": 75.79706329055779,
         "roundtrip": 14.999999999999886,
         "greeks": {
           "delta_rmb_per_0.01": 25.492375266518575,
@@ -126,11 +126,11 @@
             "bidQty": 47,
             "askQty": 1,
             "volume": 17141,
-            "oi": 18434,
+            "oi": 16342,
             "iv": 15.706066687127917,
             "delta": 0.512780536452439,
             "gamma": 2.3491785790839015,
-            "quoteTime": "20261104 16:04:03",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "轻度实值",
               "distance": 0.7868628121792676
@@ -151,11 +151,11 @@
             "bidQty": 3,
             "askQty": 1,
             "volume": 99000,
-            "oi": 61719,
+            "oi": 54714,
             "iv": 15.346465717151725,
             "delta": -0.25785678378725335,
             "gamma": 2.9977218201048244,
-            "quoteTime": "20261104 16:04:03",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 2.4974341430037628
@@ -287,9 +287,9 @@
       "low": 4.062,
       "volume": 3047391700,
       "volumeUnit": "份",
-      "sourceTime": "20261104160331",
-      "secondarySource": "新浪",
-      "secondaryTime": "2026-11-04 15:34:59",
+      "sourceTime": "20261104161431",
+      "secondarySource": "东方财富",
+      "secondaryTime": "2026-11-04 16:12:00",
       "quality": "B（兜底观察・非首选）",
       "priceQuality": "A（官方元数据＋双源收盘报价一致）",
       "modelQuality": "B（Greeks需复核／利率为假设）",
@@ -308,11 +308,11 @@
         "direction": "bull",
         "isFallback": true,
         "fallbackReason": "严格组合为空；采用最近一档实值主腿＋同执行价虚值保险腿（1:1），仅作兜底观察，不进入本时点总首选。",
-        "score": 62.81281608854841,
+        "score": 62.734399954753634,
         "cost": 2400.0,
         "mainShare": 62.083333333333336,
         "coverage": 68.94878769885271,
-        "liquidity": 80.85919751316057,
+        "liquidity": 80.5978104005113,
         "roundtrip": 28.0,
         "greeks": {
           "delta_rmb_per_0.01": 18.280138778212827,
@@ -358,11 +358,11 @@
             "bidQty": 1,
             "askQty": 33,
             "volume": 15646,
-            "oi": 16705,
+            "oi": 14067,
             "iv": 19.386322521715844,
             "delta": 0.588709342518566,
             "gamma": 1.3019057700269288,
-            "quoteTime": "20261104 16:04:04",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "轻度实值",
               "distance": 1.7964071856287456
@@ -383,11 +383,11 @@
             "bidQty": 1,
             "askQty": 1,
             "volume": 10507,
-            "oi": 29060,
+            "oi": 27126,
             "iv": 19.466774406203363,
             "delta": -0.4059079547364377,
             "gamma": 1.2967266535652213,
-            "quoteTime": "20261104 16:04:04",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 1.7964071856287456
@@ -513,11 +513,11 @@
         "direction": "bear",
         "isFallback": false,
         "fallbackReason": null,
-        "score": 71.28846558625426,
+        "score": 71.21157242422692,
         "cost": 1161.0,
         "mainShare": 77.43324720068905,
         "coverage": 44.94018869457113,
-        "liquidity": 87.66348731560302,
+        "liquidity": 87.40717677551191,
         "roundtrip": 8.0,
         "greeks": {
           "delta_rmb_per_0.01": -30.362837821336463,
@@ -563,11 +563,11 @@
             "bidQty": 1,
             "askQty": 1,
             "volume": 64311,
-            "oi": 51347,
+            "oi": 40550,
             "iv": 18.585375333026743,
             "delta": -0.551451904782367,
             "gamma": 2.1217438377400524,
-            "quoteTime": "20261104 16:04:05",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "平值附近",
               "distance": 0.5988023952095967
@@ -588,11 +588,11 @@
             "bidQty": 5,
             "askQty": 402,
             "volume": 115326,
-            "oi": 111284,
+            "oi": 105787,
             "iv": 18.050955932956963,
             "delta": 0.2478235265690025,
             "gamma": 1.7485073312290227,
-            "quoteTime": "20261104 16:04:06",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 2.9940119760478945
@@ -715,12 +715,12 @@
         "alternatives": [
           {
             "label": "3×300ETF沽11月4200 + 2×300ETF购11月4300",
-            "score": 69.26858980266414,
+            "score": 69.1916966406368,
             "cost": 3227.0
           },
           {
             "label": "1×300ETF沽12月4200 + 1×300ETF购11月4300",
-            "score": 68.60483283640052,
+            "score": 68.58879548966914,
             "cost": 1648.0
           }
         ]
@@ -737,9 +737,9 @@
       "low": 6.35,
       "volume": 1519912200,
       "volumeUnit": "份",
-      "sourceTime": "20261104160331",
-      "secondarySource": "新浪",
-      "secondaryTime": "2026-11-04 15:34:59",
+      "sourceTime": "20261104161443",
+      "secondarySource": "东方财富",
+      "secondaryTime": "2026-11-04 16:11:43",
       "quality": "B（兜底观察・非首选）",
       "priceQuality": "A（官方元数据＋双源收盘报价一致）",
       "modelQuality": "B（Greeks需复核／利率为假设）",
@@ -758,11 +758,11 @@
         "direction": "bull",
         "isFallback": true,
         "fallbackReason": "严格组合为空；采用最近一档实值主腿＋同执行价虚值保险腿（1:1），仅作兜底观察，不进入本时点总首选。",
-        "score": 60.714725709793846,
+        "score": 60.64062118942834,
         "cost": 6434.0,
         "mainShare": 59.76064656512279,
         "coverage": 70.87532384930441,
-        "liquidity": 78.82239590566552,
+        "liquidity": 78.57538083778047,
         "roundtrip": 112.99999999999909,
         "greeks": {
           "delta_rmb_per_0.01": 16.915725889442882,
@@ -808,11 +808,11 @@
             "bidQty": 6,
             "askQty": 1,
             "volume": 25751,
-            "oi": 15269,
+            "oi": 13074,
             "iv": 33.039164744442594,
             "delta": 0.5808039135583274,
             "gamma": 0.47993382785609334,
-            "quoteTime": "20261104 16:04:07",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "轻度实值",
               "distance": 2.4170544963218688
@@ -833,11 +833,11 @@
             "bidQty": 1,
             "askQty": 15,
             "volume": 16246,
-            "oi": 35781,
+            "oi": 33285,
             "iv": 32.81304818989953,
             "delta": -0.41164665466389855,
             "gamma": 0.4831735360815039,
-            "quoteTime": "20261104 16:04:07",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 2.4170544963218688
@@ -972,9 +972,9 @@
       "low": 2.392,
       "volume": 8134512500,
       "volumeUnit": "份",
-      "sourceTime": "20261104160330",
-      "secondarySource": "新浪",
-      "secondaryTime": "2026-11-04 15:35:30",
+      "sourceTime": "20261104161448",
+      "secondarySource": "东方财富",
+      "secondaryTime": "2026-11-04 15:34:48",
       "quality": "B（兜底观察・非首选）",
       "priceQuality": "A（官方元数据＋双源收盘报价一致）",
       "modelQuality": "B（Greeks需复核／利率为假设）",
@@ -1398,9 +1398,9 @@
       "low": 1.213,
       "volume": 14898729700,
       "volumeUnit": "份",
-      "sourceTime": "20261104160331",
-      "secondarySource": "新浪",
-      "secondaryTime": "2026-11-04 15:34:59",
+      "sourceTime": "20261104161448",
+      "secondarySource": "东方财富",
+      "secondaryTime": "2026-11-04 16:12:01",
       "quality": "B（兜底观察・非首选）",
       "priceQuality": "A（官方元数据＋双源收盘报价一致）",
       "modelQuality": "B（Greeks需复核／利率为假设）",
@@ -1420,11 +1420,11 @@
         "direction": "bear",
         "isFallback": true,
         "fallbackReason": "严格组合为空；采用最近一档实值主腿＋同执行价虚值保险腿（1:1），仅作兜底观察，不进入本时点总首选。",
-        "score": 56.35016481400066,
+        "score": 56.24792867619778,
         "cost": 1338.0,
         "mainShare": 53.96113602391629,
         "coverage": 99.87783884850677,
-        "liquidity": 90.03601850966703,
+        "liquidity": 89.69523138365743,
         "roundtrip": 2.0,
         "greeks": {
           "delta_rmb_per_0.01": -0.06104979940998419,
@@ -1470,11 +1470,11 @@
             "bidQty": 2,
             "askQty": 38,
             "volume": 100489,
-            "oi": 65122,
+            "oi": 54674,
             "iv": 51.936635179506126,
             "delta": -0.49974806772648844,
             "gamma": 2.3872669878017123,
-            "quoteTime": "20261104 16:04:16",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "轻度实值",
               "distance": 0.746268656716409
@@ -1495,11 +1495,11 @@
             "bidQty": 1,
             "askQty": 24,
             "volume": 235156,
-            "oi": 97454,
+            "oi": 84807,
             "iv": 51.8957582312066,
             "delta": 0.4991375697323886,
             "gamma": 2.3891471958112263,
-            "quoteTime": "20261104 16:04:16",
+            "quoteTime": "20261104 16:29:04",
             "moneyness": {
               "label": "轻度虚值",
               "distance": 0.746268656716409
