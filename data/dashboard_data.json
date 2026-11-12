@@ -1,7 +1,7 @@
 {
   "dataset": {
     "asOfDate": "2026-11-12",
-    "generatedAt": "2026-11-12T23:31:22.009373+08:00",
+    "generatedAt": "2026-11-12T23:43:43.212780+08:00",
     "label": "当日实际抓取快照",
     "qualityLabel": "价格A｜模型B（仅观察）",
     "verifiedTradingDay": true,
@@ -40,7 +40,7 @@
       "time": "15:00",
       "label": "收盘归档",
       "available": true,
-      "capturedAt": "2026-11-12T23:31:22.009373+08:00"
+      "capturedAt": "2026-11-12T23:43:43.212780+08:00"
     }
   ],
   "instruments": [
@@ -1407,11 +1407,11 @@
         "direction": "bull",
         "isFallback": false,
         "fallbackReason": null,
-        "score": 65.08519162641599,
+        "score": 65.04697657690751,
         "cost": 2097.0,
         "mainShare": 80.25751072961373,
         "coverage": 53.329069598849834,
-        "liquidity": 79.85370411409869,
+        "liquidity": 79.72632061573708,
         "roundtrip": 43.99999999999994,
         "greeks": {
           "delta_rmb_per_0.01": 28.636250199634418,
@@ -1445,7 +1445,7 @@
             "bidQty": 10,
             "askQty": 5,
             "volume": 3265,
-            "oi": 5423,
+            "oi": 5532,
             "iv": 38.18932921558017,
             "delta": 0.6135778728535632,
             "gamma": 1.1812139539924398,
@@ -1470,7 +1470,7 @@
             "bidQty": 7,
             "askQty": 20,
             "volume": 89603,
-            "oi": 48477,
+            "oi": 42261,
             "iv": 38.88678007269799,
             "delta": -0.3272153708572191,
             "gamma": 1.948423146074564,
