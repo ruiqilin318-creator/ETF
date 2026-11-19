@@ -1,7 +1,7 @@
 {
   "dataset": {
     "asOfDate": "2026-11-19",
-    "generatedAt": "2026-11-19T17:31:16.166445+08:00",
+    "generatedAt": "2026-11-19T19:57:25.933423+08:00",
     "label": "当日实际抓取快照",
     "qualityLabel": "数据门禁未完整通过",
     "verifiedTradingDay": true,
@@ -40,7 +40,7 @@
       "time": "15:00",
       "label": "收盘归档",
       "available": true,
-      "capturedAt": "2026-11-19T17:31:16.166445+08:00"
+      "capturedAt": "2026-11-19T19:57:25.933423+08:00"
     }
   ],
   "instruments": [
